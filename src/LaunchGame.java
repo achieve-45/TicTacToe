@@ -2,9 +2,10 @@ public class LaunchGame {
     public static void main(String[] args) {
         TicTacToe t = new TicTacToe();
         HumanPlayer p1 = new HumanPlayer("Bob", 'X');
-        HumanPlayer p2 = new HumanPlayer("Marley", 'O');
 
-        HumanPlayer cp = p1;
+        AIPlayer p2 = new AIPlayer("TAI",'O');
+
+        Player cp = p1;
         int moves = 0;
         final int MAX_MOVES = 9;
 
