@@ -1,3 +1,5 @@
+package src;
+
 public class TicTacToe {
     static char[][] board;
 
